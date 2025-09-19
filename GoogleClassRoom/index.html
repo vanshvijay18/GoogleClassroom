@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <nav class="h-[10vh] bg-[#F8FAFD] w-full flex justify-between">
+      <div class="flex items-center gap-4 pl-5">
+        <i class="fa-solid fa-bars text-xl text-gray-700"></i>
+        <img src="ClasssImg.svg" class="h-[4vh]" >
+        <h1
+          class=" hover:text-[#0B57D0] hover:underline cursor-pointer text-2xl text-gray-700"
+        >
+          Classroom
+        </h1>                                          
+      </div>
+      <div class="flex gap-4 text-xl text-gray-700 items-center pr-5">
+        <i class="fas fa-plus"></i>
+        <i class="fas fa-layer-group"></i>
+        <i class="fas fa-user"></i>
+      </div>
+    </nav>
+    <main class="h-full w-full flex  bg-[#F8FAFD] ">
+      <!-- Side Bar -->
+      <div class="h-full bg-[#F8FAFD] w-[20vw] p-5 flex flex-col gap-3 text-gray-700">
+        <div class="border rounded-full bg-blue-300 cursor-pointer border-blue-300 flex flex-row gap-5 pl-4 items-center h-[6vh]">
+          <i class="fas fa-house-user"></i>
+          <p>Home</p>
+        </div>
+        <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+          <i class="fas fa-calendar"></i>
+          <p>Calendar</p>
+        </div>
+        <!-- Enrolled -->
+        <div class="mt-5 mb-5 flex flex-col gap-2">
+          <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+            <i class="fas fa-graduation-cap"></i>
+            <p>Enrolled</p>
+            <i class="fas fa-angle-down pl-15"></i>
+          </div>
+          <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+            <i class="fas fa-list-check"></i>
+            <p>To Do</p>
+          </div>
+          <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+            <div class="h-8 w-8 rounded-full bg-gray-200 flex items-center pl-3 text-lg text-gray-800">J</div>
+            <p>JAVA BATCH-A2</p>
+          </div>
+          <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+            <p class="h-8 w-8 rounded-full bg-green-100 flex items-center pl-3 text-green-800 text-lg ">F</p>
+            <div class="flex flex-col">Frontend Batch -G/H
+              <p class="text-xs">https://meet.google.com/osx-hj</p>
+            </div>
+          </div>
+          <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+           <p class="h-8 w-8 rounded-full bg-blue-100 flex items-center pl-2 text-blue-800 text-lg ">C</p>
+            <p>C LOGICAL BATCH - A 36/37</p>
+          </div>
+          <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+           <p class="h-8 w-8 rounded-full bg-cyan-100 flex items-center pl-2 text-cyan-800 text-lg ">C</p>
+            <p>C++ BATCH - A 36/37</p>
+          </div>
+          <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+           <p class="h-8 w-8 rounded-full bg-zinc-100 flex items-center pl-3 text-zinc-800 text-lg ">S</p>
+            <p>SpringBoot</p>
+          </div>
+          <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+           <p class="h-8 w-8 rounded-full bg-rose-100 flex items-center pl-3 text-rose-800 text-lg ">P</p>
+            <p>Python BATCH - </p>
+          </div>
+          <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+           <p class="h-8 w-8 rounded-full bg-orange-100 flex items-center pl-3 text-orange-800 text-lg ">L</p>
+            <p>LINUX BATCH - A 36/37</p>
+          </div>
+          <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+           <p class="h-8 w-8 rounded-full bg-purple-100 flex items-center pl-2 text-purple-800 text-lg ">M</p>
+            <p>MERN</p>
+          </div>
+          <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+           <p class="h-8 w-8 rounded-full bg-yellow-100 flex items-center pl-3 text-yellow-800 text-lg ">J</p>
+            <p>JavaScript</p>
+          </div>
+          <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+           <p class="h-8 w-8 rounded-full bg-pink-100 flex items-center pl-3 text-pink-800 text-lg ">B</p>
+            <p>Big-Data</p>
+          </div>
+          
+
+        </div>
+        <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+            <i class="fas fa-inbox" ></i>
+            <p>Archived Class</p>
+        </div>
+        <div class="hover:border rounded-full hover:bg-gray-300 cursor-pointer hover:border-gray-300 flex flex-row gap-5 items-center h-[6vh] pl-5">
+            <i class="fa-solid fa-gear"></i>
+            <p>Settings</p>
+        </div>
+       
+      </div>
+<!-- Main Bar -->
+      <div class="h-full bg-[#F8FAFD] w-[80vw] ">
+        <div class="h-full bg-white w-[78vw]  ml-[2vw] mt-[2vh]  rounded-3xl " >
+
+        <div class="flex gap-5 pl-4 pt-4 flex flex-wrap">
+          <div class="h-[36vh] w-[18vw] bg-white border-gray-300 border rounded-2xl ">
+            <div class="h-[10vh] w-[17.9vw]  bg-[url(JAVA.png)] bg-cover rounded-t-2xl  text-white gap-4 pl-3 pt-3 absolute">
+               <h1 class="text-2xl">JAVA BATCH - A2</h1>
+                <p class="text-sm">REGex Software</p>             
+            </div>
+            <p class="text-5xl  h-[10vh] w-[5vw] bg-green-600 text-white flex items-center pl-6 pb-2 mb-10 rounded-full relative top-10 left-45 ">R</p>
+            <div class="h-[13.4vh]  border-b border-gray-300 ">
+            </div>
+            <div class="h-[7vh]  border-b border-gray-300 rounded-b-2xl flex flex-row pl-[10vw] gap-5 pt-[2vh] text-xl">
+               <i class="fas fa-id-badge  text-gray-500"></i>
+               <i class="fas fa-folder text-gray-500"></i>
+               <i class="fa-solid fa-ellipsis-vertical text-gray-500"></i>
+            </div>
+          </div>
+          <div class="h-[36vh] w-[18vw] bg-white border-gray-300 border rounded-2xl ">
+            <div class="h-[10vh] w-[17.9vw]  bg-[url(Frontend.png)] bg-cover rounded-t-2xl  text-white gap-4 pl-3 pt-3 absolute">
+               <h1 class="text-2xl">Frontend BATCH -G/H</h1>
+                <p class="text-sm">REGex Software</p>             
+            </div>
+            <p class="text-5xl  h-[10vh] w-[5vw] bg-green-600 text-white flex items-center pl-6 pb-2  rounded-full relative top-10 left-45 ">R</p>
+            <div class="h-[19vh]  border-b border-gray-300 ">
+            </div>
+            <div class="h-[7vh]  border-b border-gray-300 rounded-b-2xl flex flex-row pl-[10vw] gap-5 pt-[2vh] text-xl">
+               <i class="fas fa-id-badge  text-gray-500"></i>
+               <i class="fas fa-folder text-gray-500"></i>
+               <i class="fa-solid fa-ellipsis-vertical text-gray-500"></i>
+            </div>
+          </div> 
+          <div class="h-[36vh] w-[18vw] bg-white border-gray-300 border rounded-2xl ">
+            <div class="h-[10vh] w-[17.9vw]  bg-[url(C.png)] bg-cover rounded-t-2xl  text-white gap-4 pl-3 pt-3 absolute">
+               <h1 class="text-2xl">C LOGICAL BATCH A2</h1>
+                <p class="text-sm">REGex Software</p>             
+            </div>
+            <p class="text-5xl  h-[10vh] w-[5vw] bg-green-600 text-white flex items-center pl-6 pb-2 mb-10 rounded-full relative top-10 left-45 ">R</p>
+            <div class="h-[13.4vh]  border-b border-gray-300 ">
+            </div>
+            <div class="h-[7vh]  border-b border-gray-300 rounded-b-2xl flex flex-row pl-[10vw] gap-5 pt-[2vh] text-xl">
+               <i class="fas fa-id-badge  text-gray-500"></i>
+               <i class="fas fa-folder text-gray-500"></i>
+               <i class="fa-solid fa-ellipsis-vertical text-gray-500"></i>
+            </div>
+          </div>
+          <div class="h-[36vh] w-[18vw] bg-white border-gray-300 border rounded-2xl ">
+            <div class="h-[10vh] w-[17.9vw]  bg-[url(JavaScript.png)] bg-cover rounded-t-2xl  text-white gap-4 pl-3 pt-3 absolute">
+               <h1 class="text-2xl">JavaScript</h1>
+                <p class="text-sm">REGex Software</p>             
+            </div>
+            <p class="text-5xl  h-[10vh] w-[5vw] bg-green-600 text-white flex items-center pl-6 pb-2 mb-10 rounded-full relative top-10 left-45 ">R</p>
+            <div class="h-[13.4vh]  border-b border-gray-300 ">
+            </div>
+            <div class="h-[7vh]  border-b border-gray-300 rounded-b-2xl flex flex-row pl-[10vw] gap-5 pt-[2vh] text-xl">
+               <i class="fas fa-id-badge  text-gray-500"></i>
+               <i class="fas fa-folder text-gray-500"></i>
+               <i class="fa-solid fa-ellipsis-vertical text-gray-500"></i>
+            </div>
+          </div>
+          <div class="h-[36vh] w-[18vw] bg-white border-gray-300 border rounded-2xl ">
+            <div class="h-[10vh] w-[17.9vw]  bg-[url(C++.png)] bg-cover rounded-t-2xl  text-white gap-4 pl-3 pt-3 absolute">
+               <h1 class="text-2xl">C++ -G/H</h1>
+                <p class="text-sm">REGex Software</p>             
+            </div>
+            <p class="text-5xl  h-[10vh] w-[5vw] bg-green-600 text-white flex items-center pl-6 pb-2  rounded-full relative top-10 left-45 ">R</p>
+            <div class="h-[19vh]  border-b border-gray-300 ">
+            </div>
+            <div class="h-[7vh]  border-b border-gray-300 rounded-b-2xl flex flex-row pl-[10vw] gap-5 pt-[2vh] text-xl">
+               <i class="fas fa-id-badge  text-gray-500"></i>
+               <i class="fas fa-folder text-gray-500"></i>
+               <i class="fa-solid fa-ellipsis-vertical text-gray-500"></i>
+            </div>
+          </div> 
+          <div class="h-[36vh] w-[18vw] bg-white border-gray-300 border rounded-2xl ">
+            <div class="h-[10vh] w-[17.9vw]  bg-[url(Big-Data.png)] bg-cover rounded-t-2xl  text-white gap-4 pl-3 pt-3 absolute">
+               <h1 class="text-2xl">Big Data</h1>
+                <p class="text-sm">REGex Software</p>             
+            </div>
+            <p class="text-5xl  h-[10vh] w-[5vw] bg-green-600 text-white flex items-center pl-6 pb-2 mb-10 rounded-full relative top-10 left-45 ">R</p>
+            <div class="h-[13.4vh]  border-b border-gray-300 ">
+            </div>
+            <div class="h-[7vh]  border-b border-gray-300 rounded-b-2xl flex flex-row pl-[10vw] gap-5 pt-[2vh] text-xl">
+               <i class="fas fa-id-badge  text-gray-500"></i>
+               <i class="fas fa-folder text-gray-500"></i>
+               <i class="fa-solid fa-ellipsis-vertical text-gray-500"></i>
+            </div>
+          </div>
+          <div class="h-[36vh] w-[18vw] bg-white border-gray-300 border rounded-2xl ">
+            <div class="h-[10vh] w-[17.9vw]  bg-[url(Linux.png)] bg-cover rounded-t-2xl  text-white gap-4 pl-3 pt-3 absolute">
+               <h1 class="text-2xl">Linux</h1>
+                <p class="text-sm">REGex Software</p>             
+            </div>
+            <p class="text-5xl  h-[10vh] w-[5vw] bg-green-600 text-white flex items-center pl-6 pb-2 mb-10 rounded-full relative top-10 left-45 ">R</p>
+            <div class="h-[13.4vh]  border-b border-gray-300 ">
+            </div>
+            <div class="h-[7vh]  border-b border-gray-300 rounded-b-2xl flex flex-row pl-[10vw] gap-5 pt-[2vh] text-xl">
+               <i class="fas fa-id-badge  text-gray-500"></i>
+               <i class="fas fa-folder text-gray-500"></i>
+               <i class="fa-solid fa-ellipsis-vertical text-gray-500"></i>
+            </div>
+          </div>
+          <div class="h-[36vh] w-[18vw] bg-white border-gray-300 border rounded-2xl ">
+            <div class="h-[10vh] w-[17.9vw]  bg-[url(MERN.png)] bg-cover rounded-t-2xl  text-white gap-4 pl-3 pt-3 absolute">
+               <h1 class="text-2xl">MERN</h1>
+                <p class="text-sm">REGex Software</p>             
+            </div>
+            <p class="text-5xl  h-[10vh] w-[5vw] bg-green-600 text-white flex items-center pl-6 pb-2  rounded-full relative top-10 left-45 ">R</p>
+            <div class="h-[19vh]  border-b border-gray-300 ">
+            </div>
+            <div class="h-[7vh]  border-b border-gray-300 rounded-b-2xl flex flex-row pl-[10vw] gap-5 pt-[2vh] text-xl">
+               <i class="fas fa-id-badge  text-gray-500"></i>
+               <i class="fas fa-folder text-gray-500"></i>
+               <i class="fa-solid fa-ellipsis-vertical text-gray-500"></i>
+            </div>
+          </div> 
+          <div class="h-[36vh] w-[18vw] bg-white border-gray-300 border rounded-2xl ">
+            <div class="h-[10vh] w-[17.9vw]  bg-[url(SpringBoot.png)] bg-cover rounded-t-2xl  text-white gap-4 pl-3 pt-3 absolute">
+               <h1 class="text-2xl">SpringBoot</h1>
+                <p class="text-sm">REGex Software</p>             
+            </div>
+            <p class="text-5xl  h-[10vh] w-[5vw] bg-green-600 text-white flex items-center pl-6 pb-2 mb-10 rounded-full relative top-10 left-45 ">R</p>
+            <div class="h-[13.4vh]  border-b border-gray-300 ">
+            </div>
+            <div class="h-[7vh]  border-b border-gray-300 rounded-b-2xl flex flex-row pl-[10vw] gap-5 pt-[2vh] text-xl">
+               <i class="fas fa-id-badge  text-gray-500"></i>
+               <i class="fas fa-folder text-gray-500"></i>
+               <i class="fa-solid fa-ellipsis-vertical text-gray-500"></i>
+            </div>
+          </div>
+           <div class="h-[36vh] w-[18vw] bg-white border-gray-300 border rounded-2xl ">
+            <div class="h-[10vh] w-[17.9vw]  bg-[url(Python.png)] bg-cover rounded-t-2xl  text-white gap-4 pl-3 pt-3 absolute">
+               <h1 class="text-2xl">Python</h1>
+                <p class="text-sm">REGex Software</p>             
+            </div>
+            <p class="text-5xl  h-[10vh] w-[5vw] bg-green-600 text-white flex items-center pl-6 pb-2 mb-10 rounded-full relative top-10 left-45 ">P</p>
+            <div class="h-[13.4vh]  border-b border-gray-300 ">
+            </div>
+            <div class="h-[7vh]  border-b border-gray-300 rounded-b-2xl flex flex-row pl-[10vw] gap-5 pt-[2vh] text-xl">
+               <i class="fas fa-id-badge  text-gray-500"></i>
+               <i class="fas fa-folder text-gray-500"></i>
+               <i class="fa-solid fa-ellipsis-vertical text-gray-500"></i>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+       </div>
+    </main>
+  </body>
+</html>
